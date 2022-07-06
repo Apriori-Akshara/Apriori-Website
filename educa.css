@@ -4047,6 +4047,7 @@ section.single-teacher .single-teacher-item .description ul li:last-child {
   border-color: #f5a425;
   cursor: pointer;
   transition: all 0.5s;
+  transform: scale(1.3);
 }
 .books-read {
   background-color: #ffffff !important;
