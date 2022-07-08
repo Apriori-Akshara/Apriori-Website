@@ -4210,7 +4210,10 @@ section.single-teacher .single-teacher-item .description ul li:last-child {
 }
 .testimonials-news #owl-testimonials .owl-buttons .owl-next:hover:after {
   background-color: #f5a425;
+  width: 60px !important;
+  height: 60px !important;
   transition: all 0.5s;
+  transform: scale(2.1) !important;
 }
 .testimonials-news #owl-testimonials .owl-buttons .owl-prev {
   margin-right: 38px;

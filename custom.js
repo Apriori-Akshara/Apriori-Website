@@ -6,11 +6,12 @@ jQuery( document ).ready(function( $ ) {
 
 	$(".count-number").appear(function(){
       var datacount = $(this).attr('data-count');
-      $(this).find('.count-focus').delay(6000).countTo({
+      $(this).find('.count-focus').delay(500).countTo({
         from: 10,
         to: datacount,
         speed: 3000,
-        refreshInterval: 50,
+        refreshInterval: 20,
+	
       });
     });
 
