@@ -181,22 +181,43 @@
  #img2{
 	margin-top: 20% !important;
 }
-#team3{
-	display: none;		
+#team4{
+	display: block ;		
 }
+#mainimg{
+		width: 100% !important;
+		position: relative !important;
+		top: 0px !important;
+		left: 30px !important;
+		bottom: 0px !important;
+		right: 0px !important;
+	}
 }
 @media screen and (max-width: 380px) {
- 
+	#teamgroup{
+		display: inline-block !important;
+		margin: auto;
+		position: relative;
+		left: 90px;
+	}
+	#mainimg{
+		width: 100% !important;
+		position: relative !important;
+		top: 0px !important;
+		left: 30px !important;
+		bottom: 0px !important;
+		right: 0px !important;
+	}
  #curve1{
 	 margin-top: 40%;
  }
  #text1{
 		 position: relative !important;
 		top: 0px !important;
-		left: -10% !important;
+		left: -45px !important;
 		bottom: 0px !important;
-		right: 0px !important; 
-		margin: auto;
+		right: 00px !important; 
+		
 	}
 
 #img2{
@@ -403,7 +424,7 @@
 					<h1 style="font-weight:900 ;">OUR TEAM</h1>
 			
 					</div>
-					<div class="card-group" style="display: flex; padding:1%;flex-direction: row;  flex-wrap: nowrap; justify-content: space-around;">
+					<div class="card-group" id="teamgroup" style="display: flex; padding:1%;flex-direction: row;  flex-wrap: nowrap; justify-content: space-around;">
 						<div class="card" id="team1">
 						  <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" class="card-img-top" alt="..." style="height: 150px; ">
 						  <div class="card-body">
