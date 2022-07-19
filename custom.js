@@ -285,7 +285,7 @@ jQuery( document ).ready(function( $ ) {
 
 	
 	$('nav.main-navigation > ul > li').each(function(){
-		$(this).find('.has-submenu').append('<i class="fas fa-angle-down"></i>');
+		$(this).find('.has-submenu').append('');
 	});
 
 
