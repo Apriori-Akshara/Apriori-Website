@@ -421,7 +421,7 @@ nav.responsive-menu ul {
   width: 100%;
   display: inline-block;
   list-style: none;
-  float: left;
+  /* float: left; */
 }
 nav.responsive-menu ul li {
   margin: 1px 0px;
