@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section{
+  padding: 0px;
+}
+.fl-topdiv{
+  padding-top: 50px;
+  background-color: #f2f5f6;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.fl-card{
+  margin-top: 50px;
+  height: 300px;
+  width: auto;
+  transition: 0.5s;
+}
+.fl-card:hover{
+  transform: scale(1.1);
+}
+.tdhead{
+  font-size: 30px;
+  padding-top: 20px;
+  color:#F5A425;
+  font-weight: bold;
+}
+.img-rounded{
+  border-radius: 100%;
+}
+.flconimg{
+  height: 220px;
+}
+
+.card-cont{
+  display: flex;
+  gap: 50px;
+}
