@@ -40,3 +40,15 @@ section{
   display: flex;
   gap: 50px;
 }
+.fl-info{
+  font-size: 15px;
+}
+.readbtn a{
+  color: rgb(145, 145, 145);
+  transition: 0.5s;
+}
+.readbtn a:hover{
+  color: #F5A425;
+  font-size: 16px;
+  text-decoration: underline;
+}
