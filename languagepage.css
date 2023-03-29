@@ -1,0 +1,49 @@
+.fl-topdiv2{
+  padding-top: 50px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.fl-card2{
+  margin-top: 50px;
+  height: 500px;
+  width: 40%;
+  transition: 0.5s;
+}
+.fl-card2:hover{
+  transform: scale(1.05);
+}
+.card-cont2{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.flconimg2{
+  height: 420px;
+  width: 40vw;
+}
+.sptext{
+  text-align: center;
+  color: rgb(136, 136, 136);
+  font-style: italic;
+  font-size: 15px;
+}
+@media only screen and (max-width: 600px){
+  .card-cont2{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .fl-card2{
+    width: 100%;
+    height: 620px;
+  }
+  .fl-topdiv2{
+    height: 1800px;
+    padding: 0 10%;
+  }
+  .flconimg2{
+    height: auto;
+    width: 100%;
+  }
+}
