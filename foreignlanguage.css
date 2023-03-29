@@ -43,6 +43,14 @@ section{
 .fl-info{
   font-size: 15px;
 }
+.lang-cont{
+  display: flex;
+  gap: 20px;
+}
+.lang-cont2{
+  display: flex;
+  gap: 20px;
+}
 .readbtn a{
   color: rgb(145, 145, 145);
   transition: 0.5s;
@@ -51,4 +59,33 @@ section{
   color: #F5A425;
   font-size: 16px;
   text-decoration: underline;
+}
+.bigimg{
+  height: 350px;
+}
+.smallimg{
+  height:150px; 
+  width: 49.5%;
+}
+
+@media only screen and (max-width: 600px){
+  .fl-topdiv{
+    height: 1400px;
+  }
+  .card-cont{
+    flex-direction: column;
+  }
+  .lang-cont{
+    flex-direction: column;
+  }
+  .bigimg{
+    height: auto;
+    width: 100%;
+  }
+  .smallimg{
+    display: none;
+  }
+  .lang-cont2{
+    display: block;
+  }
 }
