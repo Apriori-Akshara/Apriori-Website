@@ -24,8 +24,8 @@
 }
 .sptext{
   text-align: center;
-  color: rgb(136, 136, 136);
-  font-style: italic;
+  color: rgb(74, 73, 73);
+  font-weight: 800;
   font-size: 15px;
 }
 @media only screen and (max-width: 600px){
