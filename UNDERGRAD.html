@@ -46,9 +46,11 @@
 	 height:235px;
 	}
 	.item.course-item:hover{
-		transform: scale(1.06);
+		transform: scale(1.03);
 		transition: 0.5s;
-		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;	
+		-webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+		-moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+		box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
 	}
 	.courses-grid .course-item .down-content .price-yellow{
 	  display:none;
@@ -126,6 +128,7 @@
 font-weight: bold;
     color: #1C1C84;
 }
+
 
 @media(max-width:767px){
 .content-table-div{
@@ -232,7 +235,7 @@ footer .footer-widget h2{
 					<div class="container">
 						<div class="row">
 							<div class="col-md-4" >
-								<div class="item course-item" >
+								<div class="item course-item hoveref" >
 									<a href="UNDERGRAD-SAT.html"><img src="SAT.png" alt=""></a>
 									<div class="down-content">
 										<img src="courses-logo-sqare-img.png" alt="">
