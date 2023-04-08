@@ -1,0 +1,28 @@
+.formheading{
+  background: linear-gradient(to bottom, #ffffff 0%, #e0f2f7 100%);
+  height: 50px;
+  padding: 1% 6%; 
+}
+.inputs{
+  width: 43%;
+  height: 50px;
+  padding: 10px;
+  display: inline;
+  margin: 20px 0px 10px 20px;
+}
+.textareas{
+  padding: 10px;
+  margin: 10px 20px;
+}
+.subbtn{
+  background-color: #f5a425;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #222222;
+  border: none;
+  margin: 10px 20px;
+  display: inline-block;
+}
