@@ -170,27 +170,41 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="message-form">
-									<div class="widget-heading" style="background: linear-gradient(to bottom, #ffffff 0%, #e0f2f7 100%);">
-										<h4>Contact Us</h4>
-									</div>
-									<div class="message-content">
-										<div class="row">
-											<div class="col-md-6">
-												<input type="text" id="name" name="s" placeholder="Full Name" value="">
-											</div>
-											<div class="col-md-6">
-												<input type="text" id="address" name="s" placeholder="E-mail Address" value="">
-											</div>
-											<div class="col-md-12">
-												<textarea id="message" class="message" name="message" placeholder="Write message"></textarea>
-											</div>
+								<div>
+										<div class="widget-heading" style="background: linear-gradient(to bottom, #ffffff 0%, #e0f2f7 100%);height: 50px;padding: 0 6%; ">
+											<h4 style="padding-top: 1%;">Contact Us</h4>
 										</div>
-										<div class="accent-button">
-											<a href="#">Submit Message</a>
-										</div>
-									</div>
-								</div>
+								<form action="https://getform.io/f/1b3b2f04-b025-4a58-9e93-f6153f6aeca1" method="POST">
+
+											<input 
+											type="text"
+											name="name"
+											placeholder="Name"
+											style="width: 45%;height: 50px; padding: 10px;display: inline;margin: 20px 5px 10px 20px;"
+											>
+											<input type="email"
+											name="email"
+											placeholder="Email"
+											style="width: 45%;height: 50px; padding: 10px;display: inline;">
+											<textarea 
+												name="message"
+											  cols="65"
+												rows="10"
+												placeholder="Message"
+												style="padding: 10px;margin: 10px 20px;"></textarea>
+									<button type="submit" style="background-color: #f5a425;
+									padding: 15px 30px;
+									font-family: 'Montserrat', sans-serif;
+									font-size: 11px;
+									text-transform: uppercase;
+									color: #222222;
+									border: none;
+									letter-spacing: 2px;
+									display: inline-block;
+									margin: 10px 20px;">
+										Submit Message
+									</button>
+								</form>
 							</div>
 						</div>
 					</div>
