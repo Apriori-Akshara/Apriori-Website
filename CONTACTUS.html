@@ -51,6 +51,16 @@
 		}
 		
 	</style>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+	<script type="text/javascript">
+		(function() {
+				// https://dashboard.emailjs.com/admin/account
+				emailjs.init('af7fxfNEZ9R1zPXjj');
+		})();
+</script>
+<script src="submit.js"></script>
 
 </head>
 <body>
@@ -172,12 +182,13 @@
 							</div>
 							<div class="col-md-6 formcont">
 								<h4 class="formheading">CONTACT US</h4>
-								<form action="https://getform.io/f/1b3b2f04-b025-4a58-9e93-f6153f6aeca1" method="POST" class="form">
-									<input class="inputs" type="text" name="name" placeholder="Full name">
-									<input class="inputs" type="email" name="email" placeholder="Email Address">
-									<textarea class="textareas" cols="65" rows="10" name="message" placeholder="Write Message"></textarea>
-									<button class="subbtn" type="submit">Submit Message</button>
-								</form>
+								<div class="form">
+									<input class="inputs" type="text" name="name" id="name" placeholder="Full name">
+									<input class="inputs" type="email" name="email" id="email" placeholder="Email Address">
+									<textarea class="textareas" cols="65" rows="10" name="message" id="message" placeholder="Write Message"></textarea>
+									<div class="g-recaptcha" style="margin-left: 20px;" data-sitekey="6LdbIjUpAAAAAHARAdpA4ektTFeaFXi4MbO5dAQq"></div>
+									<button onclick="sendMail()" class="subbtn">Submit Message</button>
+								</div>
 							
 						</div>
 					</div>
@@ -322,6 +333,9 @@
 
 	</div>
 
+	<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+	async defer>
+</script>
 
 </body>
 </html>
