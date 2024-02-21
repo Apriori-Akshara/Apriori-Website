@@ -1692,7 +1692,6 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   margin-top: 15px;
 }
 .lightbox-target .gallery-information ul li span {
-  float: left;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #a8a8a8;
@@ -2379,7 +2378,6 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
 }
 .single-course .accordions .accordion-section-title h6 {
   padding-right: 20px;
-  float: right;
   display: inline-block;
   position: relative;
   margin: 0px;
@@ -2808,7 +2806,6 @@ section.single-teacher .single-teacher-item .description ul li:last-child {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 15px;
-  float: left;
   width: 46px;
   height: 46px;
   background-color: #1c1c84;
@@ -3322,7 +3319,6 @@ section.single-teacher .single-teacher-item .description ul li:last-child {
   margin-top: 15px;
 }
 .course-information ul li span {
-  float: left;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #a8a8a8;
